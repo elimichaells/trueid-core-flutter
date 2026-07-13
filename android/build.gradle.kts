@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.trueid.core.flutter"
-version = "1.0.1"
+version = "1.0.2"
 
 android {
     namespace = "com.trueid.core.flutter"
@@ -33,6 +33,6 @@ dependencies {
     if (localCore != null) {
         add("api", localCore)
     } else {
-        add("api", "com.trueid.sdk:trueid-core:1.1.1")
+        add("api", "com.trueid.sdk:trueid-core:1.1.2")
     }
 }

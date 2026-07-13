@@ -1,3 +1,12 @@
+## 1.0.2
+
+* Updates the native Android dependency to `trueid-core:1.1.2`: automatic
+  contrast enforcement for organization-branded colors in the selfie
+  capture engine (white text/icons darken automatically if the org's
+  primary/secondary color would otherwise be unreadable), plus
+  theme-aware light/dark color tokens for the camera stage and controls.
+* No Dart-facing API changes.
+
 ## 1.0.1
 
 * Updates the native Android dependency to `trueid-core:1.1.1`: face-region
